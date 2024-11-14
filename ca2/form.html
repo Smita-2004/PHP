@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Data Submission Form</title>
+</head>
+<body>
+    <div id="container">
+    <h2>Submit Your Information</h2>
+    <form action="process.php" method="post">
+        <input type="text" id="name" name="name" placeholder="Your Name" required ><br><br>
+        <input type="email" id="email" name="email" placeholder="Your Email" required><br><br>
+        <textarea placeholder="Your message" id="area"></textarea><br><br>
+        <button id="submit" >Submit</button>
+    </form>
+    </div>
+</body>
+</html>
